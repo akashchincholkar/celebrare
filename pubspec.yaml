@@ -1,0 +1,31 @@
+name: celebrare
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_cropper: ^7.0.5
+  image_picker: ^1.1.2
+  widget_mask: ^1.0.0+0
+    
+image_picker: ^1.1.2
+image_cropper: ^7.0.5
+widget_mask: ^1.0.0+0
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+ assets:
+   - assets/images/
+
+
+ uses-material-design: true
